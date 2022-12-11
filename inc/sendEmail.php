@@ -1,7 +1,7 @@
 ﻿<?php
 
 // Replace this with your own email address
-$siteOwnersEmail = 'contact@gmail.com';
+$siteOwnersEmail = 'contact@sajjadoutlaw.me';
 
 
 if($_POST) {
