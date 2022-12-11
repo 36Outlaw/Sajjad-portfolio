@@ -1096,17 +1096,17 @@ header .row {
 header .top-bar {
 	display: block;
 	background: #000000;
-	min-width: 220px;
-	min-height: 66px;
+	min-width: 125px;
+	min-height: 0px;
 	position: absolute;
-	left: 90px;
+	left: 0px;
 	top: 0;
 }
 header .logo {
 	float: left;
-	margin-left: 20px;
-	margin-right: 50px;
-	margin-top: 25px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
 	position: relative;
 }
 header .logo a {
@@ -1117,10 +1117,10 @@ header .logo a {
 	font: 0/0 a;
 	text-shadow: none;
 	color: transparent;
-	width: 92px;
-	height: 15px;
-	background: url("../images/logo.png") no-repeat center;
-	background-size: 92px 15px;
+	width: 0px;
+	height: 0px;
+	/*background: url("../images/logo.jpg") no-repeat center;
+	background-size: 92px 15px;*/
 }
 
 /**
@@ -1129,7 +1129,7 @@ header .logo a {
  */
 .menu-toggle {
 	float: left;
-	width: 40px;
+	width: 60px;
 	height: 40px;
 	margin-left: 20px;
 	margin-top: 13px;
@@ -2574,8 +2574,8 @@ footer .copyright span:last-child::after {
 	text-decoration: none;
 	border: 0 none;
 	display: block;
-	height: 6.6rem;
-	width: 6rem;
+	height: 6rem;
+	width: 5rem;
 	line-height: 6.6rem;
 	text-align: center;
 	background: #cc005f;
